@@ -1,0 +1,104 @@
+header.jumbotron {
+  text-align: center;
+  background-image: url(http://i.imgur.com/EEHI9HT.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 170px;
+  color: white;
+}
+header.jumbotron h1 {
+  font-size: 60px;
+}
+
+section {
+  text-align: center;
+  padding: 80px 0px;
+}
+section .section_heading {
+  font-size: 36px;
+  margin-top: 0px;
+}
+section .section_subheading {
+  font-size: 16px;
+  color: #999;
+}
+
+.col-sea {
+  padding: 70px;
+}
+.col-sea img {
+  width: 55%;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.col-sea h5{
+  font-size: 16px;
+}
+
+section.story {
+  background-color: #eee;
+}
+section.story img.sea_icon {
+  width: 80px;
+  margin-bottom: 20px;
+}
+section.story .col-md-6 {
+  padding: 20px;
+}
+
+section.pictures {
+  padding: 0px;
+  color: white;
+}
+section.pictures .col-md-6 {
+  padding: 150px;
+  cursor: pointer;
+}
+section.pictures .col-md-6:hover p {
+  opacity: 0.7;
+}
+section.pictures .col-md-6:hover:before {
+  filter: brightness(0.5);
+  background-size: 130% auto;
+  transition: 0.5s;
+}
+section.pictures .col-md-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-position: center center;
+}
+section.pictures .pic1:before {
+  background-image: url(http://i.imgur.com/OgMKxbn.jpg);
+  background-size: 120% auto;
+}
+section.pictures .pic2:before {
+  background-image: url(http://i.imgur.com/ydWYJj1.jpg);
+  background-size: 120% auto;
+}
+section.pictures p {
+  opacity: 0.5;
+}
+
+section.ask {
+  background-color: #01233c;
+  color: white;
+}
+section.ask input.form-control {
+  margin-top: 30px;
+}
+section.ask .button {
+  margin-top: 30px;
+  border: solid 1px white;
+  border-radius: 10%;
+  display: inline-block;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
